@@ -1,3 +1,15 @@
+## You can test the api starting the app ```php artisan serve``` and testing the route with Postman.
+
+**Routes**
+
+* (GET) api/items -> get all;
+* (GET) api/item/{day} -> get dayly task;
+* (GET) api/item/{type} -> get task by type;
+* (POST) api/item/store -> add task;
+* (PUT) api/item/{id} -> add hour range;
+* (DELETE) api/item/{id} -> delete task;
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
